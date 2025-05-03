@@ -8,11 +8,11 @@ Valid API Keys Implemented image
 
 How to test features (POSTMAN/ CURL) Remember: You must always include the header X-API-Key when making requests.
 
-Accessing /users Service. •Method: GET •URL: http://localhost:8080/my_api_gateway/api/users •Headers: •X-API-Key: key123 •X-API-Key: key456 ![image](https://github.com/user-attachments/assets/51038fa5-67c5-4195-9f64-93998bac6ca5)
+Accessing /users Service. •Method: GET •URL: http://localhost/my_api_gateway/api/users •Headers: •X-API-Key: key123 •X-API-Key: key456 ![image](https://github.com/user-attachments/assets/51038fa5-67c5-4195-9f64-93998bac6ca5)
 
-Accessing /products Service. •Method: GET •URL: http://localhost:8080/my_api_gateway/api/products •Headers: •X-API-Key: key123 •X-API-Key: key456 ![image](https://github.com/user-attachments/assets/89ee0595-5533-4f94-a6a9-4bf3590f28a1)
+Accessing /products Service. •Method: GET •URL: http://localhost/my_api_gateway/api/products •Headers: •X-API-Key: key123 •X-API-Key: key456 ![image](https://github.com/user-attachments/assets/89ee0595-5533-4f94-a6a9-4bf3590f28a1)
 
-Accessing /dashboard Service. •Method: GET •URL: http://localhost:8080/my_api_gateway/api/dashboard •Headers: •X-API-Key: key123 •X-API-Key: key456 ![image](https://github.com/user-attachments/assets/e5f32b8d-669c-4696-9a5c-a411b86a76d0)
+Accessing /dashboard Service. •Method: GET •URL: http://localhost/my_api_gateway/api/dashboard •Headers: •X-API-Key: key123 •X-API-Key: key456 ![image](https://github.com/user-attachments/assets/e5f32b8d-669c-4696-9a5c-a411b86a76d0)
 
 
 Challenges Faced / Assumptions Made 
