@@ -15,7 +15,9 @@ Accessing /products Service. •Method: GET •URL: http://localhost:8080/my_api
 Accessing /dashboard Service. •Method: GET •URL: http://localhost:8080/my_api_gateway/api/dashboard •Headers: •X-API-Key: key123 •X-API-Key: key456 ![image](https://github.com/user-attachments/assets/e5f32b8d-669c-4696-9a5c-a411b86a76d0)
 
 
-Challenges Faced / Assumptions Made Challenge: Implementing dynamic rate-limiting for each API key without using external libraries. Assumption: Every API key is valid indefinitely unless manually removed from the database. Assumption: Rate limits are set as 10 requests per minute per API key. Challenge: Handling header retrieval uniformly because different environments (like Apache vs. Nginx) can behave differently with getallheaders().
+Challenges Faced / Assumptions Made 
+Challenge: Implementing a dynamic rate limiting has been hard with db. 
+Assumption: Every API key inputted in the databases is valid until it is removed manually from the db.  
 
 Unauthorized User: ![image](https://github.com/user-attachments/assets/4728a0ee-ddaa-4798-8abc-d71aa6c9cd75)
 
